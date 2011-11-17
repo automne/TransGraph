@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59EF1BDF14756C12007CB9A1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 59EF1BDE14756C12007CB9A1 /* icon.png */; };
+		79E7572E14750B6A006C09B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E7572D14750B6A006C09B2 /* UIKit.framework */; };
+		79E7573014750B6A006C09B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E7572F14750B6A006C09B2 /* Foundation.framework */; };
+		79E7573214750B6A006C09B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E7573114750B6A006C09B2 /* CoreGraphics.framework */; };
+		79E7573814750B6A006C09B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E7573614750B6A006C09B2 /* InfoPlist.strings */; };
+		79E7573A14750B6A006C09B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E7573914750B6A006C09B2 /* main.m */; };
+		79E7573E14750B6A006C09B2 /* TransGraphAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E7573D14750B6A006C09B2 /* TransGraphAppDelegate.m */; };
+		79E7574114750B6A006C09B2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E7573F14750B6A006C09B2 /* MainWindow.xib */; };
+		79E7574414750B6A006C09B2 /* TransGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E7574314750B6A006C09B2 /* TransGraphViewController.m */; };
+		79E7574714750B6A006C09B2 /* TransGraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E7574514750B6A006C09B2 /* TransGraphViewController.xib */; };
+		79E7574F14750B6A006C09B2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E7574E14750B6A006C09B2 /* SenTestingKit.framework */; };
+		79E7575014750B6A006C09B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E7572D14750B6A006C09B2 /* UIKit.framework */; };
+		79E7575114750B6A006C09B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E7572F14750B6A006C09B2 /* Foundation.framework */; };
+		79E7575214750B6A006C09B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E7573114750B6A006C09B2 /* CoreGraphics.framework */; };
+		79E7575A14750B6A006C09B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E7575814750B6A006C09B2 /* InfoPlist.strings */; };
+		79E7575C14750B6A006C09B2 /* TransGraphTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 79E7575B14750B6A006C09B2 /* TransGraphTests.h */; };
+		79E7575E14750B6A006C09B2 /* TransGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E7575D14750B6A006C09B2 /* TransGraphTests.m */; };
+		79E7577014751311006C09B2 /* Poly.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E7576F14751310006C09B2 /* Poly.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E7575314750B6A006C09B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E7572014750B6A006C09B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E7572814750B6A006C09B2;
+			remoteInfo = TransGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59EF1BDE14756C12007CB9A1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		79E7572914750B6A006C09B2 /* TransGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E7572D14750B6A006C09B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79E7572F14750B6A006C09B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79E7573114750B6A006C09B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79E7573514750B6A006C09B2 /* TransGraph-Info.plist */ = {isa = PBXFileReference; path = "TransGraph-Info.plist"; sourceTree = "<group>"; };
+		79E7573714750B6A006C09B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79E7573914750B6A006C09B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79E7573B14750B6A006C09B2 /* TransGraph-Prefix.pch */ = {isa = PBXFileReference; path = "TransGraph-Prefix.pch"; sourceTree = "<group>"; };
+		79E7573C14750B6A006C09B2 /* TransGraphAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransGraphAppDelegate.h; sourceTree = "<group>"; };
+		79E7573D14750B6A006C09B2 /* TransGraphAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransGraphAppDelegate.m; sourceTree = "<group>"; };
+		79E7574014750B6A006C09B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		79E7574214750B6A006C09B2 /* TransGraphViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransGraphViewController.h; sourceTree = "<group>"; };
+		79E7574314750B6A006C09B2 /* TransGraphViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransGraphViewController.m; sourceTree = "<group>"; };
+		79E7574614750B6A006C09B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TransGraphViewController.xib; sourceTree = "<group>"; };
+		79E7574D14750B6A006C09B2 /* TransGraphTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransGraphTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E7574E14750B6A006C09B2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		79E7575714750B6A006C09B2 /* TransGraphTests-Info.plist */ = {isa = PBXFileReference; path = "TransGraphTests-Info.plist"; sourceTree = "<group>"; };
+		79E7575914750B6A006C09B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79E7575B14750B6A006C09B2 /* TransGraphTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransGraphTests.h; sourceTree = "<group>"; };
+		79E7575D14750B6A006C09B2 /* TransGraphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransGraphTests.m; sourceTree = "<group>"; };
+		79E7576E14751310006C09B2 /* Poly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poly.h; sourceTree = "<group>"; };
+		79E7576F14751310006C09B2 /* Poly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Poly.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E7572614750B6A006C09B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E7572E14750B6A006C09B2 /* UIKit.framework in Frameworks */,
+				79E7573014750B6A006C09B2 /* Foundation.framework in Frameworks */,
+				79E7573214750B6A006C09B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E7574914750B6A006C09B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E7574F14750B6A006C09B2 /* SenTestingKit.framework in Frameworks */,
+				79E7575014750B6A006C09B2 /* UIKit.framework in Frameworks */,
+				79E7575114750B6A006C09B2 /* Foundation.framework in Frameworks */,
+				79E7575214750B6A006C09B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E7571E14750B6A006C09B2 = {
+			isa = PBXGroup;
+			children = (
+				79E7573314750B6A006C09B2 /* TransGraph */,
+				79E7575514750B6A006C09B2 /* TransGraphTests */,
+				79E7572C14750B6A006C09B2 /* Frameworks */,
+				79E7572A14750B6A006C09B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E7572A14750B6A006C09B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E7572914750B6A006C09B2 /* TransGraph.app */,
+				79E7574D14750B6A006C09B2 /* TransGraphTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E7572C14750B6A006C09B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79E7572D14750B6A006C09B2 /* UIKit.framework */,
+				79E7572F14750B6A006C09B2 /* Foundation.framework */,
+				79E7573114750B6A006C09B2 /* CoreGraphics.framework */,
+				79E7574E14750B6A006C09B2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79E7573314750B6A006C09B2 /* TransGraph */ = {
+			isa = PBXGroup;
+			children = (
+				59EF1BDE14756C12007CB9A1 /* icon.png */,
+				79E7573C14750B6A006C09B2 /* TransGraphAppDelegate.h */,
+				79E7573D14750B6A006C09B2 /* TransGraphAppDelegate.m */,
+				79E7573F14750B6A006C09B2 /* MainWindow.xib */,
+				79E7574214750B6A006C09B2 /* TransGraphViewController.h */,
+				79E7574314750B6A006C09B2 /* TransGraphViewController.m */,
+				79E7576E14751310006C09B2 /* Poly.h */,
+				79E7576F14751310006C09B2 /* Poly.m */,
+				79E7574514750B6A006C09B2 /* TransGraphViewController.xib */,
+				79E7573414750B6A006C09B2 /* Supporting Files */,
+			);
+			path = TransGraph;
+			sourceTree = "<group>";
+		};
+		79E7573414750B6A006C09B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E7573514750B6A006C09B2 /* TransGraph-Info.plist */,
+				79E7573614750B6A006C09B2 /* InfoPlist.strings */,
+				79E7573914750B6A006C09B2 /* main.m */,
+				79E7573B14750B6A006C09B2 /* TransGraph-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E7575514750B6A006C09B2 /* TransGraphTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E7575B14750B6A006C09B2 /* TransGraphTests.h */,
+				79E7575D14750B6A006C09B2 /* TransGraphTests.m */,
+				79E7575614750B6A006C09B2 /* Supporting Files */,
+			);
+			path = TransGraphTests;
+			sourceTree = "<group>";
+		};
+		79E7575614750B6A006C09B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E7575714750B6A006C09B2 /* TransGraphTests-Info.plist */,
+				79E7575814750B6A006C09B2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E7572814750B6A006C09B2 /* TransGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E7576114750B6A006C09B2 /* Build configuration list for PBXNativeTarget "TransGraph" */;
+			buildPhases = (
+				79E7572514750B6A006C09B2 /* Sources */,
+				79E7572614750B6A006C09B2 /* Frameworks */,
+				79E7572714750B6A006C09B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransGraph;
+			productName = TransGraph;
+			productReference = 79E7572914750B6A006C09B2 /* TransGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E7574C14750B6A006C09B2 /* TransGraphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E7576414750B6A006C09B2 /* Build configuration list for PBXNativeTarget "TransGraphTests" */;
+			buildPhases = (
+				79E7574814750B6A006C09B2 /* Sources */,
+				79E7574914750B6A006C09B2 /* Frameworks */,
+				79E7574A14750B6A006C09B2 /* Resources */,
+				79E7574B14750B6A006C09B2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E7575414750B6A006C09B2 /* PBXTargetDependency */,
+			);
+			name = TransGraphTests;
+			productName = TransGraphTests;
+			productReference = 79E7574D14750B6A006C09B2 /* TransGraphTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E7572014750B6A006C09B2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 79E7572314750B6A006C09B2 /* Build configuration list for PBXProject "TransGraph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79E7571E14750B6A006C09B2;
+			productRefGroup = 79E7572A14750B6A006C09B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E7572814750B6A006C09B2 /* TransGraph */,
+				79E7574C14750B6A006C09B2 /* TransGraphTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E7572714750B6A006C09B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E7573814750B6A006C09B2 /* InfoPlist.strings in Resources */,
+				79E7574114750B6A006C09B2 /* MainWindow.xib in Resources */,
+				79E7574714750B6A006C09B2 /* TransGraphViewController.xib in Resources */,
+				59EF1BDF14756C12007CB9A1 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E7574A14750B6A006C09B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E7575A14750B6A006C09B2 /* InfoPlist.strings in Resources */,
+				79E7575C14750B6A006C09B2 /* TransGraphTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79E7574B14750B6A006C09B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E7572514750B6A006C09B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E7573A14750B6A006C09B2 /* main.m in Sources */,
+				79E7573E14750B6A006C09B2 /* TransGraphAppDelegate.m in Sources */,
+				79E7574414750B6A006C09B2 /* TransGraphViewController.m in Sources */,
+				79E7577014751311006C09B2 /* Poly.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E7574814750B6A006C09B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E7575E14750B6A006C09B2 /* TransGraphTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E7575414750B6A006C09B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E7572814750B6A006C09B2 /* TransGraph */;
+			targetProxy = 79E7575314750B6A006C09B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79E7573614750B6A006C09B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E7573714750B6A006C09B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79E7573F14750B6A006C09B2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E7574014750B6A006C09B2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		79E7574514750B6A006C09B2 /* TransGraphViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E7574614750B6A006C09B2 /* en */,
+			);
+			name = TransGraphViewController.xib;
+			sourceTree = "<group>";
+		};
+		79E7575814750B6A006C09B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E7575914750B6A006C09B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E7575F14750B6A006C09B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79E7576014750B6A006C09B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E7576214750B6A006C09B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransGraph/TransGraph-Prefix.pch";
+				INFOPLIST_FILE = "TransGraph/TransGraph-Info.plist";
+				PRODUCT_NAME = TransGraph;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79E7576314750B6A006C09B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransGraph/TransGraph-Prefix.pch";
+				INFOPLIST_FILE = "TransGraph/TransGraph-Info.plist";
+				PRODUCT_NAME = TransGraph;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79E7576514750B6A006C09B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TransGraph.app/TransGraph";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransGraph/TransGraph-Prefix.pch";
+				INFOPLIST_FILE = "TransGraphTests/TransGraphTests-Info.plist";
+				PRODUCT_NAME = TransGraphTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		79E7576614750B6A006C09B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TransGraph.app/TransGraph";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransGraph/TransGraph-Prefix.pch";
+				INFOPLIST_FILE = "TransGraphTests/TransGraphTests-Info.plist";
+				PRODUCT_NAME = TransGraphTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E7572314750B6A006C09B2 /* Build configuration list for PBXProject "TransGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E7575F14750B6A006C09B2 /* Debug */,
+				79E7576014750B6A006C09B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E7576114750B6A006C09B2 /* Build configuration list for PBXNativeTarget "TransGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E7576214750B6A006C09B2 /* Debug */,
+				79E7576314750B6A006C09B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E7576414750B6A006C09B2 /* Build configuration list for PBXNativeTarget "TransGraphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E7576514750B6A006C09B2 /* Debug */,
+				79E7576614750B6A006C09B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E7572014750B6A006C09B2 /* Project object */;
+}
